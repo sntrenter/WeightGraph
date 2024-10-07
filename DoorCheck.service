@@ -4,9 +4,9 @@ After=network.target
 
 [Service]
 Type=simple
-User=pi0
-WorkingDirectory=/home/pi0/Documents
-ExecStart=/usr/bin/python /home/pi0/Documents/DoorCheck.py
+User=speedy
+WorkingDirectory=/home/speedy/Documents/WeightGraph/
+ExecStart=/usr/bin/python /home/speedy/Documents/WeightGraph/WeightCheck.py
 Restart=always
 
 [Install]
