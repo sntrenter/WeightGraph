@@ -1,5 +1,5 @@
 [Unit]
-Description=Door Check
+Description=Weight Check Service
 After=network.target
 
 [Service]
