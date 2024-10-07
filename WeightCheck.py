@@ -1,6 +1,6 @@
 import discord
 from discord.ext import commands
-from TOKEN import TOKEN,myUserID
+from TOKEN import TOKEN
 import os
 import sqlite3
 import time
